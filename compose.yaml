@@ -1,0 +1,11 @@
+version: '3.8'
+
+services: 
+  python_ml: 
+    build: . 
+    container_name: parallel-stock-trading-ml
+    ports: 
+      - "7000:7000"
+    volumes: 
+      - .:/app
+    
