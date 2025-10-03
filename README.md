@@ -8,7 +8,7 @@ This project is connected to the other two repositories. Different repos for bet
 
 Current architecure. Project is still in progress, so lots of empty files for now. 
 
-```c
+```bash
 .
 ├── compose.yaml
 ├── Dockerfile
