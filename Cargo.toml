@@ -1,0 +1,11 @@
+[package]
+name = "stock_trading_ml"
+version = "0.1.0"
+authors = ["Jason Phan"]
+edition = "2021"
+repository = "https://github.com/sudo-JP/Stock-Trading-ML.git"
+
+[dependencies]
+# for fork/exec, pipes, etc.
+nix = "0.27" 
+anyhow = "1.0"
