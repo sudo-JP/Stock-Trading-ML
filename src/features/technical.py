@@ -1,2 +1,0 @@
-# RSI, MACD, Bollinger bands 
-
