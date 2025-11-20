@@ -42,5 +42,6 @@ name = "stock_trading_ml"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "libc",
  "nix",
 ]
