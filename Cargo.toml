@@ -7,5 +7,7 @@ repository = "https://github.com/sudo-JP/Stock-Trading-ML.git"
 
 [dependencies]
 # for fork/exec, pipes, etc.
-nix = "0.27" 
+nix = { version = "0.27", features = ["process"] }
+libc = "0.2"
 anyhow = "1.0"
+
